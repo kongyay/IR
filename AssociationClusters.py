@@ -65,8 +65,6 @@ for i in range(nk):
         s = C[i][j]/(C[i][i]+C[j][j]-C[i][j])
         N[i][j] = s # cross set value
         N[j][i] = s # cross set value
-        if(i==j): # i = j makes current index max value (1) which will cause error in the next stage
-            N[i][j] = 0 # deny it
 
 printNormMtx()
 q = np.zeros(nk)
