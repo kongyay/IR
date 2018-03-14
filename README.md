@@ -1,3 +1,5 @@
 # IR
 Information Storage Retrieval in practice
-- AssociationClusters in Python
+- Automatic Global Analysis
+    - Association Clusters in Python
+    - Matrix Clusters in Python
